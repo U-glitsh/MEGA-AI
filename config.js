@@ -6,11 +6,11 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '923444844060';
+const defaultOwner = '201210307869';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
-const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '' ; // put your number here
+const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '201210307869' ; // put your number here
 
 const ownerlist = ownervb.split(';');
 
@@ -19,13 +19,13 @@ for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.botname = process.env.BOTNAME || 'MEGA-AI';
-global.pairingNumber = process.env.BOT_NUMBER || '' ;  // put your number here
-global.SESSION_ID = process.env.SESSION_ID || '' ;  // put your session id here
+global.botname = process.env.BOTNAME || '7rB Alex';
+global.pairingNumber = process.env.BOT_NUMBER || '201210307869' ;  // put your number here
+global.SESSION_ID = process.env.SESSION_ID || 'yZp0gJqR#2aIIshbpW7Z-GUy3fpvLFCD_ilcHVTwpgjx1ImMnFuM' ;  // put your session id here
 
 global.mods = []
 global.prems = []
-global.allowed = ['923444844060', '923051391007']
+global.allowed = ['201210307869', '201033757279']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -42,7 +42,7 @@ global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
 global.lolkeysapi = ['GataDios']
 
-global.canal = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
+global.canal = 'https://whatsapp.com/channel/0029VaoOUTCA89MgywLh6s19'
 
 
 global.APIs = {
@@ -73,8 +73,8 @@ global.APIKeys = {
 
 // Sticker WM
 global.premium = 'true'
-global.packname = 'MEGA-AI'
-global.author = 'GlobalTechInfo'
+global.packname = '7rB AleX'
+global.author = '7rB AleX'
 global.menuvid = 'https://i.imgur.com/2U2K9YA.mp4'
 global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/global.techinfo'
 global.dygp = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
